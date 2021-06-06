@@ -20,8 +20,11 @@ So that locators/methods are in the central location (ToDoPage)
 WHAT IS TESTED?
  Positive Scenario
   User Story 1: User can create task in the list
+  
   User Story 2: User can edit existing task in the list
+  
   User Story 3: User can delete existing task in the list
+  
   User Story 4: User can delete multiple task by clicking clean completed button
  
  Negative Scenario
