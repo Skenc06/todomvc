@@ -1,4 +1,5 @@
-# todomvc test automation task
+GENERAL INFORMATION:
+* Task Name: todomvc web application test automation task
 * First Name, Last Name: Serkan Kenc (skenc06@gmail.com)
 * Software QA Testing Coding Challenge (UI Part)
 * Language: Java
@@ -12,10 +13,10 @@ All dependencies in my pom.xml file come from Maven repository which means addit
  -Cucumber
 * Plugins: maven-surfire-plugin, CukesRunner, maven-cucumber-reporting
 * Framework can be created by using TestNG or Cucumber BDD, I preferred Cucumber BDD.
-* The project is built by using Page Object Model(POM) desing pattern but it can improve if case of need.
-So that locators/methods are in the central location (ToDoPage)
+* The project is built by using Page Object Model(POM) desing pattern but it can improve if case of need. So that locators/methods are in the central location (ToDoPage)
 * For reporting I used Maven Plugin in pom.xml file. I have Cucumber and Default HTML reporting with browser
 * Gherkin language is used.
+
 
 WHAT IS TESTED?
 
@@ -39,7 +40,8 @@ WHAT IS TESTED?
   
   User Story 4: User can not delete multiple task by clicking clean completed button
    
-HOW IS TESTED?
+
+HOW TESTED? Cucumber BDD
 
 Background: Given the user is on the To Do page, And the user writes tasks to do
   
@@ -92,6 +94,7 @@ Background: Given the user is on the To Do page, And the user writes tasks to do
   When the user does not choose any task to delete
   
   Then the number of existing tasks are not changed
+
 
 PAGES AND CLASSES IN THE FRAMEWORK:
 
